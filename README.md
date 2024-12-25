@@ -1,12 +1,47 @@
-### ENCODER 8TO3 DATAFLOW Modelling
+NAME : B.BARKAVI
+
+REFERENCE NO : 24901000
+
+EXPERIMENT NO : 5 ENCODER 8 TO 3 DATA FLOW
+
 
 **AIM:**
 
 To implement  Encoder 8 To 3 in Dataflow Modelling using verilog and validating their functionality using their functional tables
 
-**SOFTWARE REQUIRED:** Quartus prime
+**SOFTWARE REQUIRED:** 
+
+Quartus prime
 
 **THEORY**
+
+The concept of an encoder in data modeling refers to the transformation of a larger set of inputs into a smaller set of outputs that still preserves as much relevant information as possible. In an 8-to-3 encoder, the idea is to map 8 distinct inputs (or states) into a compressed 3-bit binary representation.
+
+1. Purpose
+
+   
+An encoder reduces the number of data lines needed to represent multiple inputs.
+It’s commonly used in digital circuits and data compression to efficiently handle large datasets.
+
+2. Basic Operation
+
+   
+Each of the 8 inputs corresponds to a unique output represented by a 3-bit binary code.
+The encoding process ensures that the information about which input is active is preserved in the compressed 3-bit output.
+
+3. Applications
+
+ 
+Digital Electronics: Used in priority encoders, multiplexers, and digital signal processors.
+Data Compression: Reduces the number of bits for efficient storage and transmission.
+Communication Systems: Encodes multiple input signals into fewer output channels.
+
+
+4. Limitations
+
+
+Loss of Information: Only one input is active at a time; simultaneous active inputs require priority encoding.
+Error Susceptibility: In noisy systems, decoding errors might occur.
 
 **Encoder 8 To 3**
 
@@ -48,32 +83,32 @@ Figure 02  Encoder 8 * 3
 **PROGRAM**
 
  Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming.
+![Screenshot (88)](https://github.com/user-attachments/assets/4c540c87-47eb-4283-8fba-cd60663fabd9)
 
 
 
 
- ![Screenshot (63)](https://github.com/user-attachments/assets/a7e68b7a-019d-45bb-8cb9-9c033c86ca95)
 
 
-Developed by:B.Barkavi
-
-RegisterNumber:24901000
 
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
 
 
+![Screenshot (89)](https://github.com/user-attachments/assets/a8e84233-6ee0-48b5-a666-1e6012167d50)
 
-![Screenshot (64)](https://github.com/user-attachments/assets/9b89be2f-aa53-4463-b33c-dce6ece72fea)
 
 
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
 
 
 
-![Screenshot (65)](https://github.com/user-attachments/assets/5d081a33-3867-4dd4-a1e9-ee301584f628)
+![Screenshot (90)](https://github.com/user-attachments/assets/9a7027c1-6838-4483-a4d9-79e0335d09bf)
+
 
 **RESULTS**
+
+
 
 The Encoder 8 To 3 in Dataflow Modelling using verilog and validating their functionality using their functional tables is verified.
 
